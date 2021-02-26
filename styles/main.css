@@ -3,6 +3,11 @@ body{
 }
 h2{
     text-align: center;
+    font-weight: 100;
+    font-size: 22px;
+    line-height: 24px;
+    color:#364d33;
+    font-family:'Lato', sans-serif;
 
 }
 
