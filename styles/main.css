@@ -1,13 +1,26 @@
 body{
     background-color: #ffffe6;
 }
-h2{
+h1{
     text-align: center;
     font-weight: 100;
-    font-size: 22px;
+    font-size: 30px;
     line-height: 24px;
     color:#364d33;
     font-family:'Lato', sans-serif;
-
+    font-weight: bold;
+}
+h2{
+    text-align: left;
+    color: #433023;
+    font-weight: bold;
+    font-size:20px;
+    font-family:'Lato', sans-serif;
+}
+p{
+    color:#6f4e37;
+    line-height: 1.3em;
+    text-align: left;
+    font-family: 'Avro', serif;
 }
 
