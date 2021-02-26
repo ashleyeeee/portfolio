@@ -10,6 +10,13 @@ h1{
     font-family:'Lato', sans-serif;
     font-weight: bold;
 }
+.flex-container > div{
+    display:inline-flexbox;
+    width:30%;
+    height:auto;
+}
+
+
 h2{
     text-align: left;
     color: #433023;
@@ -23,4 +30,5 @@ p{
     text-align: left;
     font-family: 'Avro', serif;
 }
+
 
