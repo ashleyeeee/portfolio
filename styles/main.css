@@ -20,8 +20,7 @@ h2{
 p{
     color:#6f4e37;
     line-height: 1.3em;
-    text-align: justify;
-    word-break: break-all;
+    text-align: left;
     font-family: 'Avro', serif;
 }
 
