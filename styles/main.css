@@ -1,5 +1,5 @@
 body{
-    background-color:white;
+    background-color:rgb(255, 255, 255);
 }
 h1{
     text-align: center;
@@ -27,7 +27,7 @@ h1{
 
 #row{
     display:inline-block;
-    background-color:#fafafa;
+    background-color:#fffffd;
     border: 5px solid #364d33;
     text-align:center;
     margin: 60px;
