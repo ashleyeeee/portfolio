@@ -27,7 +27,7 @@ h1{
 
 #row{
     display:inline-block;
-    background-color:#fcfceb;
+    background-color:#fafafa;
     border: 5px solid #364d33;
     text-align:center;
     margin: 60px;
@@ -36,13 +36,13 @@ h1{
 
 h2{
     text-align: left;
-    color: #433023;
+    color: #000000;
     font-weight: bold;
     font-size:20px;
     font-family:'Lato', sans-serif;
 }
 p{
-    color:#6f4e37;
+    color:#27201b;
     line-height: 1.3em;
     text-align: left;
     font-family: 'Avro', serif;
