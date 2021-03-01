@@ -18,28 +18,6 @@ body{
     line-height:2px;
     color:#86ab80;  
 }
-ul{
-    list-style-type:none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      background-color:#fffffd;
-      text-align:center;
-      position:relative;
-    }
-li{
-    float:left;
-}
-li a{ 
-    display:block;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding:20px 16px;
-    text-decoration:crimson;
-}
-li a:hover{
-    background-color:#86ab80;
-}
 #row{
     display:inline-block;
     background-color:#fffffd;
