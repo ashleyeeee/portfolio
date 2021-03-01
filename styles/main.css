@@ -1,15 +1,20 @@
 body{
-    background-color:rgb(255, 255, 255);
+    background-size: 40px 40px;
+  background-image:
+    linear-gradient(to right, grey 1px, transparent 1px),
+    linear-gradient(to bottom, grey 1px, transparent 1px);
 }
-.welcome{
+
+ .welcome{
     text-align: right;
     font-weight: 80;
     font-size: 20px;
     line-height: 15px;
     color:#181b17;
     font-family:'Lato', sans-serif;
-    font-weight: bold;
-}
+    font-weight: bold;}
+    
+
 
 .name{
     text-align: right;
@@ -45,7 +50,7 @@ body{
 }
 
 ul{
-    list-style-type: none;
+list-style-type:none;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -53,15 +58,20 @@ ul{
 }
 
 li{
-    float:center;
+    float:left;
 }
 
 li a{ 
-    display: block;
-    color: rgb(179, 102, 102);
+    display:block;
+    color: rgb(0, 0, 0);
     text-align: center;
-    padding: 14px 16px;
+    padding:14px 16px;
     text-decoration: none;
+    text-align: center;
+}
+
+li a:hover{
+    background-color:#86ab80;
 }
 .box{
     display:inline-block;
