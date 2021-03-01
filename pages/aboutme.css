@@ -1,0 +1,50 @@
+body{
+    background-size: 30px 30px;
+      background-image:
+    linear-gradient(to right, rgb(189, 189, 189) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(189, 189, 189) 1px, transparent 1px)
+}
+.center{
+    text-align: center;
+}
+.welcome{
+    text-align: center;
+ }
+.name{
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    line-height:2px;
+    color:#86ab80;  
+}
+ul{
+    list-style-type:none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color:#fffffd;
+      text-align:center;
+      position:relative;
+    }
+li{
+    float:left;
+}
+li a{ 
+    display:block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding:20px 16px;
+    text-decoration:crimson;
+}
+li a:hover{
+    background-color:#86ab80;
+}
+#row{
+    display:inline-block;
+    background-color:#fffffd;
+    border: 6px solid #364d33;
+    text-align:center;
+    margin: 20px;
+    width:60%;
+}
