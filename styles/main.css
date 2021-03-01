@@ -1,14 +1,16 @@
 body{
     background-size: 30px 30px;
       background-image:
-    linear-gradient(to right, rgb(189, 189, 189) 1px, transparent 1px),
-    linear-gradient(to bottom, rgb(189, 189, 189) 1px, transparent 1px)
+    linear-gradient(to right, rgb(225, 248, 225) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(225, 248, 225) 1px, transparent 1px)
 }
 
 
 
  .welcome{
     text-align: center;
+    font-size:20px;
+    line-height:3px;
  }
 
     
@@ -20,10 +22,13 @@ body{
     font-weight: bold;
     font-size: 40px;
     line-height:2px;
-    color:#86ab80;
+    color:#a8d8a1;
+    text-shadow: 2px 2px 4px #000000;
+
+}
 
     
-}
+
 
 .center{
     text-align: center;
@@ -37,7 +42,7 @@ h4{
 #rowone{
     display:inline-block;
     background-color:#fffffd;
-    border: 6px solid #364d33;
+    border: 6px solid #578851;
     text-align:left;
     margin: 5px;
     width:60%;
@@ -78,7 +83,7 @@ li a{
 }
 
 li a:hover{
-    background-color:#86ab80;
+    background-color:#b6ccb3;
 }
 .box{
     display:inline-block;
@@ -93,10 +98,12 @@ li a:hover{
 #row{
     display:inline-block;
     background-color:#fffffd;
-    border: 6px solid #364d33;
+    border: 6px solid #578851;
     text-align:center;
     margin: 20px;
     width:60%;
+    box-shadow: 10px 10px 5px grey;
+}
 }
 
 h2{
