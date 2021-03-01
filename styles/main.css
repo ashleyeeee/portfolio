@@ -1,25 +1,35 @@
 body{
-    background: url('http://i.stack.imgur.com/GySvQ.png');
-
+        background-size: 40px 40px;
+      background-image:
+        linear-gradient(to right, grey 1px, transparent 1px),
+        linear-gradient(to bottom, grey 1px, transparent 1px)
 }
 
+
+.nav{
+    text-align:center;
+    line-height: 30px;
+    font-weight:80;
+}
+
+
  .welcome{
-    text-align: right;
+    text-align: left;
     font-weight: 80;
     font-size: 20px;
-    line-height: 15px;
+    line-height: 5px;
     color:#181b17;
     font-family:'Lato', sans-serif;
-    font-weight: bold;}
+    font-weight: normal;}
     
 
 
 .name{
-    text-align: right;
+    text-align: left;
     font-family: 'Bebas Neue', sans-serif;
     font-weight: bold;
     font-size: 40px;
-    line-height:10px;
+    line-height:2px;
     color:#86ab80;
 
     
@@ -33,7 +43,7 @@ body{
     display:inline-block;
     background-color:#fffffd;
     border: 6px solid #364d33;
-    text-align:center;
+    text-align:left;
     margin: 5px;
     width:60%;
 }
@@ -47,25 +57,29 @@ body{
     padding:3%;
 }
 
+
 ul{
-list-style-type:none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color:#fffffd;
-}
+    list-style-type:none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color:#fffffd;
+      text-align:center;
+      position:relative;
+    }
+
+
 
 li{
-    float:left;
+    float:right
 }
 
 li a{ 
     display:block;
     color: rgb(0, 0, 0);
     text-align: center;
-    padding:14px 16px;
-    text-decoration: none;
-    text-align: center;
+    padding:20px 16px;
+    text-decoration:crimson;
 }
 
 li a:hover{
@@ -86,7 +100,7 @@ li a:hover{
     background-color:#fffffd;
     border: 6px solid #364d33;
     text-align:center;
-    margin: 50px;
+    margin: 20px;
     width:60%;
 }
 
