@@ -44,6 +44,25 @@ body{
     padding:3%;
 }
 
+ul{
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#fffffd;
+}
+
+li{
+    float:center;
+}
+
+li a{ 
+    display: block;
+    color: rgb(179, 102, 102);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 .box{
     display:inline-block;
     width: 20%;
