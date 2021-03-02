@@ -54,13 +54,28 @@ li a:hover{
 }
 .box{
     display:inline-block;
-    width: 40%;
+    width: 60%;
     height: 10%;
     text-align: left;
     vertical-align:top;
     padding:1%;
 }
+.boxtwo{
+    display:inline-block;
+    width:30%;
+    height:10%;
+    text-align: left;
+    vertical-align:top;
+    padding:1%;
+}
 
+}
+#rowtwo{
+    display:inline-block;
+    background-color: transparent;
+    text-align:left;
+    width:55%;
+}
 
 
     
