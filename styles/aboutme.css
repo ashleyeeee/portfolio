@@ -76,6 +76,15 @@ li a:hover{
     text-align:left;
     width:55%;
 }
+.favs{
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height:2px;
+    color:#a8d8a1;
+    text-shadow: 2px 2px 4px #000000;
+}
 
 
     
