@@ -52,3 +52,12 @@ li a:hover{
     width:60%;
     box-shadow: 10px 10px 5px grey;
 }
+.heading{
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    line-height:2px;
+    color:#a8d8a1;
+    text-shadow: 2px 2px 4px #000000;
+}
