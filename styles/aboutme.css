@@ -101,3 +101,9 @@ li a:hover{
     padding:2%;
     width:70%;
 }
+.boxtext{
+    display:inline-block;
+    text-align: center;
+    width:20%;
+
+}
