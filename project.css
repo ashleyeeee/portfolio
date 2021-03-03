@@ -52,3 +52,19 @@ li a:hover{
     width:60%;
     box-shadow: 10px 10px 5px grey;
 }
+#rowtwo{
+    display:inline-block;
+    background-color: transparent;
+    text-align:center;
+    width:55%;
+}
+.boxtwo{
+    display:inline-block;
+    width:30%;
+    height:10%;
+    text-align: center;
+    vertical-align:text-bottom;
+    padding:1%;
+}
+
+
