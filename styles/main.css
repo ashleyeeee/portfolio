@@ -126,4 +126,9 @@ img{
 a{
     color:#51794c;
 }
+.boxtext{
+    display:inline-block;
+    text-align: center;
+    width:20%;
 
+}
