@@ -66,5 +66,10 @@ li a:hover{
     vertical-align:text-bottom;
     padding:1%;
 }
-
-
+figcaption{
+    font-size:12px;
+}
+.cloud{
+    font-size:12px;
+    text-align:center;
+}
