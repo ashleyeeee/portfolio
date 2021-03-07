@@ -136,3 +136,10 @@ a{
     text-align:center;
     font-size: 20px;
 }
+figcaption{
+    font-size:12px;
+}
+.cloud{
+    font-size:12px;
+    text-align:center;
+}
