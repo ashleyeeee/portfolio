@@ -73,3 +73,31 @@ figcaption{
     font-size:12px;
     text-align:center;
 }
+button {
+    margin-top: 20px;
+    line-height: 60px;
+    font-weight: bold;
+    padding: 0 40px;
+    background: #b6ccb3;
+    border: none;
+  }
+button:hover {
+    background:#578851;
+  }
+#buttonrowone{
+    display:inline-block;
+    background-color: transparent;
+    text-align:center;
+    margin: 40px;
+    padding:10px;
+} 
+.center1{
+    text-align: center;
+
+}
+.center2{
+    text-align: center;
+}
+.center3{
+    text-align: center;
+}
