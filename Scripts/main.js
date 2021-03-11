@@ -1,5 +1,5 @@
 function buttonone() {
-    document.getElementById("button1").innerHTML = "Project 1 Coming Soon!";
+    alert("Project 1 Coming Soon!");
   }
 function buttontwo() {
     document.getElementById("button2").innerHTML = "Project 2 Coming Soon!"
