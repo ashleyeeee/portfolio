@@ -1,0 +1,119 @@
+body{
+    background-size: 30px 30px;
+      background-image:
+    linear-gradient(to right, rgb(225, 248, 225) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(225, 248, 225) 1px, transparent 1px)
+}
+ .welcome{
+    text-align: center;
+    font-size:20px;
+    line-height:3px;
+ }
+.name{
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    line-height:2px;
+    color:#a8d8a1;
+    text-shadow: 2px 2px 4px #000000;
+}
+.center{
+    text-align: center;
+}
+ul{
+    list-style-type:none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color:#fffffd;
+      text-align:center;
+      position:relative;
+    }
+li{
+    float:left;
+}
+li a{ 
+    display:block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding:20px 16px;
+    text-decoration:crimson;
+}
+li a:hover{
+    background-color:#b6ccb3;
+}
+#row{
+    display:inline-block;
+    background-color:#fffffd;
+    border: 6px solid #578851;
+    text-align:center;
+    margin: 20px;
+    width:60%;
+    box-shadow: 10px 10px 5px grey;
+}
+.box{
+    display:inline-block;
+    width: 60%;
+    height: 10%;
+    text-align: center;
+    vertical-align:top;
+    padding:1%;
+}
+.boxtwo{
+    display:inline-block;
+    width:30%;
+    height:10%;
+    text-align: center;
+    vertical-align:top;
+    padding:1%;
+}
+
+
+#rowtwo{
+    display:inline-block;
+    background-color: transparent;
+    text-align:center;
+    width:55%;
+}
+.favs{
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height:2px;
+    color:#a8d8a1;
+    text-shadow: 2px 2px 4px #000000;
+}
+.books{
+    text-align:center;
+    vertical-align: middle;
+}
+.boxthree{
+    display:inline-block;
+    text-align:center;
+    width:40%;
+    height:10%;
+    
+}
+.boxfour{
+    display:inline-block;
+    padding:2%;
+    width:70%;
+}
+.boxtext{
+    display:inline-block;
+    text-align: center;
+    width:20%;
+
+}
+.hello{
+    font-size:17px;
+}
+figcaption{
+    font-size:12px;
+}
+.cloud{
+    font-size:12px;
+    text-align:center;
+}
