@@ -1,0 +1,315 @@
+body{
+
+    background-size: 30px 30px;
+
+      background-image:
+
+    linear-gradient(to right, rgb(225, 248, 225) 1px, transparent 1px),
+
+    linear-gradient(to bottom, rgb(225, 248, 225) 1px, transparent 1px)
+
+}
+
+
+
+
+
+
+
+
+
+
+ .welcome{
+
+    text-align: center;
+
+    font-size:20px;
+
+    line-height:3px;
+
+ }
+
+
+
+
+    
+
+
+
+
+
+
+
+.name{
+
+    text-align: center;
+
+    font-family: 'Bebas Neue', sans-serif;
+
+    font-weight: bold;
+
+    font-size: 40px;
+
+    line-height:2px;
+
+    color:#a8d8a1;
+
+    text-shadow: 2px 2px 4px #000000;
+
+
+
+
+}
+
+
+
+
+    
+
+
+
+
+
+
+
+.center{
+
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+h4{
+
+    text-align:center;
+
+    line-height:2px;
+
+}
+
+#rowone{
+
+    display:inline-block;
+
+    background-color:#fffffd;
+
+    border: 6px solid #578851;
+
+    text-align:left;
+
+    margin: 5px;
+
+    width:60%;
+
+}
+
+
+
+
+.intro{
+
+    display:inline-block;
+
+    width: 20%;
+
+    height: 20%;
+
+    text-align: right;
+
+    vertical-align:top;
+
+    padding:3%;
+
+}
+
+
+
+
+
+
+
+ul{
+
+    list-style-type:none;
+
+      margin: 0;
+
+      padding: 0;
+
+      overflow: hidden;
+
+      background-color:#fffffd;
+
+      text-align:center;
+
+      position:relative;
+
+    }
+
+
+
+
+
+
+
+
+
+
+li{
+
+    float:left;
+
+}
+
+
+
+
+li a{ 
+
+    display:block;
+
+    color: rgb(0, 0, 0);
+
+    text-align: center;
+
+    padding:20px 16px;
+
+    text-decoration:crimson;
+
+}
+
+
+
+
+li a:hover{
+
+    background-color:#b6ccb3;
+
+}
+
+.box{
+
+    display:inline-block;
+
+    width: 20%;
+
+    height: 20%;
+
+    text-align: center;
+
+    vertical-align:top;
+
+    padding:3%;
+
+}
+
+
+
+
+
+
+
+#row{
+
+    display:inline-block;
+
+    background-color:#fffffd;
+
+    border: 6px solid #578851;
+
+    text-align:center;
+
+    margin: 20px;
+
+    width:60%;
+
+    box-shadow: 10px 10px 5px grey;
+
+}
+
+
+
+
+h2{
+
+    text-align: left;
+
+    color: #000000;
+
+    font-weight: bold;
+
+    font-size:20px;
+
+    font-family:'Lato', sans-serif;
+
+}
+
+p{
+
+    color:#27201b;
+
+    line-height: 1.3em;
+
+    text-align: left;
+
+    font-family: 'Avro', serif;
+
+}
+
+
+
+
+img{
+
+    text-align:center;
+
+}
+
+
+
+
+a{
+
+    color:#51794c;
+
+}
+
+.boxtext{
+
+    display:inline-block;
+
+    text-align: center;
+
+    width:20%;
+
+
+
+
+}
+
+.hi{
+
+    text-align:center;
+
+    font-size: 20px;
+
+}
+
+figcaption{
+
+    font-size:12px;
+
+}
+
+.cloud{
+
+    font-size:12px;
+
+    text-align:center;
+
+}
