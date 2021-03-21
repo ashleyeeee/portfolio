@@ -1,2 +1,2 @@
 # portfolio
- https://ashleyeeee.github.io/portfolio/
+ https://ashleyeeee.github.io/portfolio/pages/Index.html
