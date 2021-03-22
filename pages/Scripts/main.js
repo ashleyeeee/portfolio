@@ -76,9 +76,24 @@ function year() {
   return alert ('The year you entered is in the century of ' + century);
   
 }
-function buttoneight() {
-    alert("Project 8 Coming Soon!");
+function tenFour() {
+  let sum = 0;
+  let multipleOf4or10 = 0;
+   for(i = 1; i<101; i = i +1){
+       if(i % 4 === 0 && i % 10 === 0){
+          multipleOf4or10 += (' TenFour! ');
+       }
+       else if(i % 4 === 0){
+           multipleOf4or10 += (' Four! ');
+       }
+       else if(i % 10 === 0){
+           multipleOf4or10 += ('Ten!');
+       }
+       else(multipleOf4or10 += ' ' + i + ' ');
+   }
+  alert (multipleOf4or10);
 }
+
 function buttonnine() {
     alert("Project 9 Coming Soon!");
 }
