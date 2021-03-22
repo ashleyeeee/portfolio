@@ -35,19 +35,25 @@ function threenumbersort() {
     alert ("the order from greatest to least is " + array);
       
   }   
-/* this one doesnt work*/
-  function forsumthrees() {
+
+function SumOfThrees() {
     let sum = 0;
     for (let i = 0; i < 1000; i++) {
-      
         ! (i % 3) && (sum += i)
-          
     }
-    console.log(sum); 
-  }
-/*this one doesnt work*/  
-function buttonfive() {
-    alert("Project 5 Coming Soon!");
+    output = "The sum of three is, " + sum + ".";
+    document.getElementById("SumThree").innerHTML = output;
+}
+ 
+function WhileThrees(){
+  let sum = 0;
+  let i = 0;
+   while (i < 1000) {
+       sum += i;
+       i = i + 3;
+   }
+   output = "The while of three is, " + sum + ".";
+   document.getElementById("WhileThree").innerHTML = output;
 }
 function angle() {
   alert ("Put in the two angles of a triangle and the machine will find the missing third angle." );
@@ -70,7 +76,7 @@ function year() {
   let century = 0;
 
   century = Math.floor(userYear/100+1);
-      if (toString(century)[-1] == 1) /*&& toString(century)[-1] !=11)*/{ 
+      if (toString(century)[-1] == 1) { 
          century = toString(century) + 'st'
       }
   return alert ('The year you entered is in the century of ' + century);
