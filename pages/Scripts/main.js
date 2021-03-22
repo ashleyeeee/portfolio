@@ -37,8 +37,8 @@ function threenumbersort() {
   }   
 
 function SumOfThrees() {
-    let sum = 0;
-    for (let i = 0; i < 1000; i++) {
+  let sum = 0;
+  for (let i = 0; i < 1000; i++) {
         ! (i % 3) && (sum += i)
     }
     output = "The sum of three is, " + sum + ".";
