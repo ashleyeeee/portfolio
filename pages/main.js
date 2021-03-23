@@ -33,6 +33,17 @@
 
 //second row of buttons//
 
+  //Javascript Exercise 3//
+  function threeNumberSort() {
+    var a = parseInt(prompt("Insert a number."));
+   var b = parseInt(prompt("Insert a number."));
+   var c = parseInt(prompt("Insert a number."));
+   let array = [a, b, c];
+   array.sort(function(a, b, c){return a - b});{
+        output = "The order from least to greatest is, " + array + ".";
+    }
+    document.getElementById("LeastGreat").innerHTML = output;
+  }
   //Javascript Exercise 4//
   function SumOfThrees() {
     let sum = 0;
@@ -42,6 +53,10 @@
      output = "The sum of three is, " + sum + ".";
       document.getElementById("SumThree").innerHTML = output;
   }
+  
+
+//third row of buttons//
+
   //Javascript Exercise 5//
   function WhileThrees(){
     let sum = 0;
@@ -52,19 +67,6 @@
     }
     output = "The while of three is, " + sum + ".";
     document.getElementById("WhileThree").innerHTML = output;
-  }
-
-//third row of buttons//
-
-  //Javascript Exercise 7//
-  function centuryFromYear() {
-    let userYear = prompt ('Want to know what century any year is in? Enter a year!', '2021');
-    let century = 0;
-    century = Math.floor(userYear/100+1);
-      if (toString(century)[-1] == 1){ 
-    }
-    output = "The year you entered is in the century of " + century + ".";
-    document.getElementById("Century").innerHTML = output;  
   }
   //Javascript Exercise 6//
   function tenFour() {
@@ -86,19 +88,17 @@
   }
 
 //fourth row of buttons//
-
-  //Javascript Exercise 3//
-  function threeNumberSort() {
-    var a = parseInt(prompt("Insert a number."));
-   var b = parseInt(prompt("Insert a number."));
-   var c = parseInt(prompt("Insert a number."));
-   let array = [a, b, c];
-   array.sort(function(a, b, c){return a - b});{
-        output = "The order from least to greatest is, " + array + ".";
+   
+  //Javascript Exercise 7//
+  function centuryFromYear() {
+    let userYear = prompt ('Want to know what century any year is in? Enter a year!', '2021');
+    let century = 0;
+    century = Math.floor(userYear/100+1);
+      if (toString(century)[-1] == 1){ 
     }
-    document.getElementById("LeastGreat").innerHTML = output;
-  }   
-
+    output = "The year you entered is in the century of " + century + ".";
+    document.getElementById("Century").innerHTML = output;  
+  }
   //Javascript Exercise 8//
   function thirdAngle() {
    alert ("Calculate the missing angle of a triangle! Insert two angles of a triangle and this function will return the third remaining angle!" );
