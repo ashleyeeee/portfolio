@@ -91,7 +91,7 @@
    
   //Javascript Exercise 7//
   function centuryFromYear() {
-    let userYear = prompt ('Want to know what century any year is in? Enter a year!', '2021');
+    let userYear = prompt ('What century is any year is in? Enter a year!', '2021');
     let century = 0;
     century = Math.floor(userYear/100+1);
       if (toString(century)[-1] == 1){ 
