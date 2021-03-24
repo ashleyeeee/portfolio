@@ -18,9 +18,9 @@
   }
   //Javascript Exercise 2//
   function signOfProduct(){
-    var a = parseInt(prompt("Place a number"));
-    var b = parseInt(prompt("Place a number"));
-    var c = parseInt(prompt("Place a number"));
+    var a = parseInt(prompt("Enter a number"));
+    var b = parseInt(prompt("Enter a number"));
+    var c = parseInt(prompt("Enter a number"));
     var totalProduct = a * b * c;
     if (totalProduct < 0 ){
     output = "The sign of the product is -."; 
@@ -35,9 +35,9 @@
 
   //Javascript Exercise 3//
   function threeNumberSort() {
-    var a = parseInt(prompt("Insert a number."));
-   var b = parseInt(prompt("Insert a number."));
-   var c = parseInt(prompt("Insert a number."));
+    var a = parseInt(prompt("Enter a number."));
+   var b = parseInt(prompt("Enter a number."));
+   var c = parseInt(prompt("Enter a number."));
    let array = [a, b, c];
    array.sort(function(a, b, c){return a - b});{
         output = "The order from least to greatest is, " + array + ".";
