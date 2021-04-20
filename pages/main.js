@@ -3,18 +3,18 @@
   //Javascript Exercise 1//
   function largernumber() {
     let num1 = parseInt(prompt("Enter the first number: "));
-    let num2 =  parseInt(prompt("Enter the second number: "));
-    let output = ""
-    if (num1 > num2){
-    output = num1;
-    } else if (num1 == num2){
-    output = "The numbers entered are equal";
-    } else if (num2 > num1){
-    output = num2;
-    } else {
-    output = "Invalid Output";
-    }
-    document.getElementById("largerNum").innerHTML = output;
+    let num2 =  parseInt(prompt("Enter the second number: "));
+    let output = ""
+    if (num1 > num2){
+    output = num1;
+    } else if (num1 == num2){
+    output = "The numbers entered are equal";
+    } else if (num2 > num1){
+    output = num2;
+    } else {
+    output = "Invalid Output";
+    }
+    document.getElementById("largerNum").innerHTML = output;
   }
   //Javascript Exercise 2//
   function signOfProduct(){
@@ -116,3 +116,36 @@
     }
     document.getElementById("Triangle").innerHTML = output;  
   }
+  //Javascript Encryption Excerise//
+  function encryption() {
+    let originaltext = prompt ("Enter your secret message!"); 
+    let fixedtext = "";
+    originaltext = originaltext.split(" ");
+    for(let i = 0; i < originaltext.length; i = i + 1) { 
+      firstletter = ((originaltext[i][0]).replace("", "u!"));
+      lastletter = (((originaltext[i]).slice(-1))).replace("", "P").toUpperCase();
+
+        fixedtext += "69" + (originaltext[i]).slice(1, -1) + firstletter + lastletter + "#0 "   ; 
+    }
+    document.getElementById("encrypting").innerHTML = fixedtext;  
+    alert("This is your encrypted message! Copy and paste this message into the decrypting button " + fixedtext);
+}
+
+//Javascript Decryption Excerise//
+function decryption() { 
+  let fixedtext = prompt ("Paste your encrypted message here!");
+  let originaltext = ""; 
+  fixedtext = fixedtext.split(" "); 
+  for(let i = 0; i < fixedtext.length; i = i + 1) {
+      firstletter = ((fixedtext[i]).slice(-5, -4));  
+      lastletter = ((fixedtext[i]).slice(-3, -2)).toLowerCase();
+      originaltext += firstletter + (fixedtext[i]).slice(2, -7) + lastletter;
+  }
+  document.getElementById("decrypting").innerHTML = originaltext; 
+  
+  
+}
+
+
+
+
